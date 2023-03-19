@@ -492,4 +492,8 @@ footer p {
 .checkoutMonto .listaCheckout .producto-checkout {
   display: inline-block;
   padding: 15px;
+}
+
+#envioCheckbox {
+  margin-bottom: 60px;
 }/*# sourceMappingURL=main.css.map */
