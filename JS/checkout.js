@@ -1,3 +1,4 @@
+// Local storage de carrito
 saveLocal()
 
 const listaCheckout = document.querySelector(".listaCheckout");
@@ -19,7 +20,7 @@ let total = carrito.reduce((total, producto) => total + (producto.cantidad * pro
 const totaldeCompra = document.createElement("h3");
 totaldeCompra.innerText = `Total de su compra: $${total}`;
 listaCheckout.appendChild(totaldeCompra);
-
+// envio 
 const envioCheckbox = document.getElementById("envioCheckbox");
 envioCheckbox.addEventListener("change", () => {
   if (envioCheckbox.checked) {
