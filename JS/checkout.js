@@ -1,4 +1,4 @@
-const carrito = JSON.parse(localStorage.getItem("carrito"));
+saveLocal()
 
 const listaCheckout = document.querySelector(".listaCheckout");
 

@@ -362,7 +362,7 @@ footer p {
   }
 }
 .paginaDeContacto {
-  background-image: url("/img/contacto.webp");
+  background-image: url("../img/contacto.webp");
   margin: 50px auto;
   padding: 50px;
 }
