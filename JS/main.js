@@ -126,7 +126,7 @@ function alertRedesSociales() {
     return new Promise(function(resolve) {
         setTimeout(function() {
           resolve();
-        }, 3 * 60 * 1000); 
+        }, 2 * 60 * 1000); 
       }).then(function() {
         Swal.fire({
             title: 'Seguinos en nuestras redes sociales',
