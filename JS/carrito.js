@@ -122,7 +122,7 @@ irApagar.addEventListener("click", ( )=>{
           confirmButtonText: 'Confirm'
         }).then((result) => {
           if (result.isConfirmed) {
-            window.location.href = './pages/checkout.html';
+            window.location.href = '../pages/checkout.html';
           }
         })
     
